@@ -1,0 +1,1 @@
+Create a set of classes/modules to control the flow of planes at an airport. Planes can land takeoff porivided that the weather is sunny. Occassionally it may be stormy, in whichcase no planes can land or takeoff.
