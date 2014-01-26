@@ -24,13 +24,6 @@ require "./lib/plane"
   end
 
   
-  # it "should be able to take off" do
-  #   plane.land                        # what's this doing?
-  #   expect(plane).to be_landed
-  #   plane.take_off
-  #   expect(plane).to be_flying
-  # end
-
 end
 
 
@@ -38,10 +31,6 @@ end
 
 
 
-  # it "changed its status to flying after taking off" do
-  #   plane.status
-  #   expect(plane)
-  # end
 
 
 
