@@ -1,5 +1,5 @@
 class Plane
-  def initialize(status="flying") # default status = flying
+  def initialize(status="flying") 
     @status = status
   end
 
@@ -12,9 +12,11 @@ class Plane
   end
 
   def land
+    #if weather is sunny
   end
 
   def take_off
+    # if weather is sunny
   end
 
   def landed?

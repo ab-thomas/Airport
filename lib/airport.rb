@@ -10,6 +10,7 @@ class Airport
   
   def planes
     @planes ||= [] 
+  end
 
   def capacity
     @capacity ||= DEFAULT_CAPACITY
