@@ -6,11 +6,8 @@ class WeatherHolder; include Weather; end
 describe Weather do
   let(:weather)  {WeatherHolder.new}
 
- 
-  it "should read weather" do
-    expect(["Sunny", "Stormy"]).to include(weather.reading?)
+  it "should be read weather" do  
+     expect(weather.reading).to be_true 
   end
 end
-
-
 

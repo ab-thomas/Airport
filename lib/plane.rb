@@ -8,7 +8,7 @@ class Plane
   end
 
   def has_in_air_status?
-    @status
+    @status 
   end
 
   def land
