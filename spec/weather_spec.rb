@@ -2,15 +2,15 @@ require './lib/weather'
 
 class WeatherHolder; include Weather; end
 
+
 describe Weather do
-  let(:holder)  {WeatherHolder.new}
+  let(:weather)  {WeatherHolder.new}
 
-
-  it "should be sunny" do
-    holder.sunny? 
-    expect(holder.weather).to eq(SUNNY) 
-   
- end
-
+ 
+  it "should read weather" do
+    expect(["Sunny", "Stormy"]).to include(weather.reading?)
+  end
 end
+
+
 

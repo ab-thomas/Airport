@@ -1,7 +1,14 @@
 module Weather
 
-  weather = ["Sunny", "Stormy"]
+ def reading?
+    weather = ["Sunny", "Stormy"]
+    weather.sample 
+  end
 
-  weather.sample # research method
+ 
+
 
 end
+
+
+
