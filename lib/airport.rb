@@ -1,3 +1,4 @@
+# This class makes sense
 class Airport
 
   def initialize(planes = {})    
