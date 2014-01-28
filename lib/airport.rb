@@ -1,5 +1,7 @@
 class Airport
 
+  include Weather end
+
   def initialize(planes = {})    
     self.capacity = planes.fetch(:capacity, capacity)
   end

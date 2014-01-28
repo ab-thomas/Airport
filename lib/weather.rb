@@ -1,8 +1,7 @@
 module Weather
 
  def reading
-    @weather = ["Sunny", "Stormy"]
-    @weather.sample 
+    @weather = ["Sunny", "Stormy"].sample 
   end
 end
 
