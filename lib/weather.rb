@@ -1,9 +1,18 @@
-module Weather
+class Weather
 
- def reading
-    @weather = ["Sunny", "Stormy"].sample 
+  attr_reader :conditions
+
+  def initialize
+    @conditions = [:sunny, :stormy]
   end
+
+  def current_condition
+    stringify_weather(@conditions.sample)
+  end
+
+  private
+  def stringify_weather(condition)
+    condition.to_s.capitalize
+  end
+
 end
-
-
-

@@ -1,6 +1,6 @@
-class Airport
+require_relative 'weather'
 
-  include Weather end
+class Airport
 
   def initialize(planes = {})    
     self.capacity = planes.fetch(:capacity, capacity)
@@ -42,7 +42,4 @@ class Airport
   def full? 
     planes.count == capacity 
   end
-
-
-
 end
