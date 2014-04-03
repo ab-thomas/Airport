@@ -1,6 +1,7 @@
 Week 3 Test: Airport
 ---------------------
-###Task:
+
+*After gaining more experience i repeated the test [here]*
 
 Imagine you're writing software to control the flow of planes at an airport. The planes can land and take off provided that the weather is sunny. Occasionally it may be stormy, in which case no planes can land or take off.
 
@@ -20,7 +21,5 @@ The submission will be judged on the following criteria:
 * RSpec
 * Ruby
 
-
-*After gaining more experience i repeated the test later in my own time [here]*
 
 [here]: https://github.com/ab-thomas/Airport_reloaded
